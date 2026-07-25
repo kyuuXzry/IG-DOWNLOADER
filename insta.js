@@ -10,8 +10,8 @@ const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
 
-module.exports = async (m, alipdev) => {
-  const { kyuuai, Reply, text, command, isRegistered, checkLimit, addLimit } = alipdev;
+module.exports = async (m, kyuudev) => {
+  const { kyuuai, Reply, text, command, isRegistered, checkLimit, addLimit } = kyuudev;
 
   if (!["insta", "ig", "igexport"].includes(command)) return;
 
