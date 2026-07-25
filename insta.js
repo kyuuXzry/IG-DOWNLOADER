@@ -3,6 +3,7 @@
  * WhatsApp : 62856726744
  * Instagram : Rissxzry_
  * Jangan hapus credit, hargai creator
+ * Note sesuaikan dengan variable kalian
  */
 
 const axios = require('axios');
